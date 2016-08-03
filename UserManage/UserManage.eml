@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/web/WEB-INF/classes"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 7.0.69" scope="PROVIDED"/>
+	<lib name="classes12.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/UserManage/web/WEB-INF/lib/classes12.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Tomcat 7.0.69" value="application_server_libraries"/>
+	</levels>
+</component>
